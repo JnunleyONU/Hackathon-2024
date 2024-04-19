@@ -4,11 +4,8 @@ import os
 
 #####MAIN#####
 
-# Get the path to the directory containing the Python executable
-python_executable_dir = os.path.dirname(os.path.abspath(__file__))
-
 # Get the path to the folder next to the Python executable
-folder_path = os.path.join(python_executable_dir, 'datfiles')
+folder_path = 'datfiles'
 
 # List all the files in the folder
 files = [os.path.join(folder_path, file) for file in os.listdir(folder_path)]
