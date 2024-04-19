@@ -12,14 +12,15 @@
 * The german and english excel files are not the same
     * Only test01_18.xsls is messed up for the German sheet (missing a column, therefore all columns are shifted 1 column to the left)
 * Had to hardcode     "Prüfl.-Aufnahme[°C]": "seal gland", in the json dictionary file in order to translate the column name easily, without adding exceptions to the python script for extracting special characters from words
-* We were unable to correctly copy the formatting of the excel sheets to the combined worksheet 
+* We were unable to correctly copy the formatting of the excel sheets to the combined worksheet
+* Stuggled with combining CSV files into excel workbooks
 
 
 #### What we did:
 * Made a python script to convert all of the DAT files to english
 * Made a python script to convert all of the DAT files to csv in english
 * Made a python script to combine all of the excel sheets into the english versions and only 1 workbook
-* Made a python script to combine the csv files into excel workbooks (in progress)
+* Made a python script to combine the csv files into excel workbooks (DNF)
 * Attempted data visualization (bar charts, scatter plots, heat map)
 * Analyzed how data affects sealing products (trends, normalization, deletion)  
 
