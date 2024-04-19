@@ -1,6 +1,6 @@
 # Hackathon-2024
 ## Freudenberg Hackathon 2024 Summary and Documentation
-### Jamir Nunley Quentin Osterhage Dax Amburgy Aiden Tallet
+### Jamir Nunley, Quentin Osterhage, Dax Amburgy, Aiden Tallet
 
 #### Problems/Issues/Troubles:
 * Translation file has inconsistencies in how it sorts things, for example some words are separated by tabs, some have tabs and spaces and they’re different amounts of tabs
