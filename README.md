@@ -23,6 +23,6 @@
 * Attempted data visualization (bar charts, scatter plots, heat map)
 * Analyzed how data affects sealing products (trends, normalization, deletion)  
 
-*Translationdat - converts a german dat file to an english dat file
-dataAnalysis - converts a german dat file to a german csv file
-csvGenerator-Translator - converts a dat file to csv and to english
+**Translationdat - converts a german dat file to an english dat file**
+**dataAnalysis - converts a german dat file to a german csv file**
+**csvGenerator-Translator - converts a dat file to csv and to english**
