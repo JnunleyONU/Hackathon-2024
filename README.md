@@ -8,7 +8,6 @@
 * The translation file also has inconsistencies with colons, so some translations add extra colons and some should have colons but don’t
 * Translation file has a typo for “responsible”
 * Some of the log data is not translated in the translation file
-* In the excel sheets, the data for dN(mm) in the german version is missing data
 * The german and english excel files are not the same
     * Only test01_18.xsls is messed up for the German sheet (missing a column, therefore all columns are shifted 1 column to the left)
 * Had to hardcode     "Prüfl.-Aufnahme[°C]": "seal gland", in the json dictionary file in order to translate the column name easily, without adding exceptions to the python script for extracting special characters from words
