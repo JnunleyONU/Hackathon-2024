@@ -14,7 +14,7 @@ def process_dat_file(file_path, german_english_pairs):
     # Step 3: Replace the Words
     for german, english in german_english_pairs.items():
         # Use regex to replace whole words only, case-insensitive, and allowing for punctuation and whitespace
-        pattern = r'\b' + re.escape(german) + r'(?::)?\b'
+        pattern = re.escape(german) 
         content = re.sub(pattern, english, content, flags=re.IGNORECASE)
 
     # Step 4: Write the Modified Content Back to the Target .DAT File
@@ -66,3 +66,4 @@ for filename in os.listdir(target_folder):
         file_path = os.path.join(target_folder, filename)
         print(f"Processing file: {file_path}") # Print the file being processed
         process_dat_file(file_path, german_english_pairs)
+
