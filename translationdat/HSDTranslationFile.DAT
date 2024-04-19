@@ -1,0 +1,61 @@
+Version: 
+#Header
+Prüfstelle:				Test Cell
+Versuchsnummer:				Test No.
+Verantwortlicher:			Responsable
+Entwicklungsziel:			Development Goal
+Bemerkungen:				Comments
+Datum:					Date
+Sequence:				Sequence (Test program)
+Doppel-Hübe:				Cycles
+Druck [bar]:				Pressure [bar]
+Temperatur [°C]:			Temperature [°C]
+Geschwindigkeit [mm/s]:			Stroke velocity [mm/s]
+Hub [mm]:				Stroke [mm]
+Bezeichnung:				Denomination
+Innen-Durchmesser [mm]:			Inner diameter [mm]
+Nut-Durchmesser [mm]:			Gland diameter [mm]
+Höhe [mm]:				Height [mm]
+Werkstoff:				Material:
+Bezeichnung:				Denomination
+Innen-Durchmesser [mm]:			Inner diameter [mm]
+Nut-Durchmesser [mm]:			Gland diameter [mm]
+Höhe [mm]:				Height [mm]
+Werkstoff:				Material:
+Bezeichnung:				Denomination
+Innen-Durchmesser [mm]:			Inner diameter [mm]
+Nut-Durchmesser [mm]:			Gland diameter [mm]
+Höhe [mm]:				Height [mm]
+Werkstoff:				Material:
+
+#Data
+Datum / Uhrzeit Zeit [s]		Date / Time [s]
+Uhrzeit Zeit [s]    Time [s]
+
+Hübe					Strokes, Cycles
+Position [mm]				Position [mm]
+Kraft [N]				Force [N]
+Kraft Hinhub max. [N]			maximum Force stroke forward [N]
+Kraft Rückhub min. [N]			minimal Force stroke backward [N]
+Druck [bar]				Pressure [bar]		
+Temp. Prüfl.-Aufnahme[°C]		Temperature seal gland [°C]
+Temp. Stange [°C]			Rod temperature [°C]
+Tropfen L1				Drops L1 (Leakage left 1)
+Tropfen L2				Drops L2 (Leakage left 2)
+Tropfen R1				Drops R1 (Leakage right 1)
+Tropfen R2				Drops R2 (Leakage right 2)
+Plunger-Position max. [%]		Plunger-Position max. [%]
+Heizen (Prüfaufnahme) [%]		Heating (seal gland) [%]
+Heizen (Stange) [%]			Heating (rod) [%]
+Kühlen (Prüfaufnahme) [%]		Cooling (seal gland) [%]
+Kühlen (Stange) [%]			Cooling (rod) [%]
+Soll-Position [mm]			Target position [mm]
+Soll-Druck [bar]			Target pressure [bar]
+Soll-Temperatur [°C]			Target temperature [°C]
+Log. Info.				Log. Info.
+
+														
+Dauerlauf gestartet			endurance test started
+Neuer Tropfen				new drop
+Spülen					flushing
+Dauerlauf von Bediener abgebrochen	endurance test interrupted by operator
